@@ -1,0 +1,138 @@
+/* styles.css */
+/* Name: Your Name, Student Number: Your Student Number */
+
+/* Root element styles */
+html {
+    font: 20px/1.5 'Arial', 'Helvetica', sans-serif;
+    background-color: #c96d6d;
+}
+
+/* General body styles */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header and footer styles */
+header, footer {
+    text-align: center;
+    background: linear-gradient(to right, #67c255, #feb47b);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+/* Main content styles */
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+/* Clear floats for footer */
+footer {
+    clear: both;
+}
+
+/* Biography section styles */
+#biography {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+}
+
+#biography img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #35d5c8;
+    background-color: #d3c0a2;
+}
+
+#biography figcaption {
+    font-style: italic;
+    color: #da3ec8;
+    text-align: center;
+}
+
+/* Early life and first films section styles */
+#early-life-and-first-films {
+    clear: both;
+    margin-top: 20px;
+}
+
+#early-life-and-first-films img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #e05151;
+    background-color: #205698;
+}
+
+#early-life-and-first-films figcaption {
+    font-style: italic;
+    color: #9c2630;
+    text-align: center;
+}
+
+/* Ironman returns section styles */
+#ironman-returns {
+    clear: both;
+    margin-top: 20px;
+}
+
+#ironman-returns img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #15cf3a;
+    background-color: #a4eb1f;
+}
+
+#ironman-returns figcaption {
+    font-style: italic;
+    color: #349da4;
+    text-align: center;
+}
+
+/* Form styles */
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #661bd6;
+    border-radius: 4px;
+}
+
+/* Video iframe styles */
+iframe {
+    border: 2px solid #f1b80d;
+    border-radius: 8px;
+    background-color: #1bc9af;
+}
+
+/* Aside styles */
+#external-links h2, #contact-form h3 {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#external-links ul {
+    list-style-type: none;
+    padding: 2px;
+}
