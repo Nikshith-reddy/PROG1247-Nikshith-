@@ -1,0 +1,147 @@
+/* styles.css */
+/* Name: Nikshith Reddy Mula, Student Number: 8975550 */
+
+/* main element */
+html {
+    font: 20px/1.5 'Arial',sans-serif;
+    background-color: #c96d6d;
+    line-height:1.7;
+}
+
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/* Header and footer */
+header, footer {
+    text-align: center;
+    background: linear-gradient(to right, #67c255, #feb47b);
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+footer {
+    font-size: 0.8em;
+}
+
+/* Main content */
+main {
+    float: left;
+    width: 80%;
+}
+
+aside {
+    float: right;
+    width: 40%;
+}
+
+/* Clear floats for footer */
+footer {
+    clear: both;
+}
+
+/* Biography section */
+#biography {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+}
+
+/*image*/
+#biography img {
+    width: 90%;
+    border-radius: 10px;
+    border: 3px solid #35d5c8;
+    background-color: #d3c0a2;
+}
+
+#biography figcaption {
+    font-style: italic;
+    color: #da3ec8;
+    text-align: center;
+}
+
+/* fil section */
+#early-life-and-first-films {
+    clear: both;
+    margin-top: 30px;
+}
+
+#early-life-and-first-films img {
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid #e05151;
+    background-color: #205698;
+}
+
+#early-life-and-first-films figcaption {
+    font-style: italic;
+    color: #9c2630;
+    text-align: center;
+}
+
+/* Ironman returns section */
+#ironman-returns {
+    clear: both;
+    margin-top: 30px;
+}
+
+#ironman-returns img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #15cf3a;
+    background-color: #a4eb1f;
+}
+
+/*figure*/
+#ironman-returns figcaption {
+    font-style: italic;
+    color: #349da4;
+    text-align: center;
+}
+
+/* styles */
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 12px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    border: 2px solid #661bd6;
+    border-radius: 4px;
+}
+
+/* Video iframe */
+iframe {
+    border: 2px solid #f1b80d;
+    border-radius: 8px;
+    background-color: #1bc9af;
+}
+
+/* Aside */
+#external-links h2, #contact-form h3 {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#external-links ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+#video{
+    border-radius: 4px;
+    padding: 10px;
+    color:paleturquoise ;
+}
